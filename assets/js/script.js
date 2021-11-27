@@ -53,7 +53,7 @@ var selectAPrompt = function(passLength){
 
 var generatePassword = function(){
   //gets how many characters in password INTEGER
-  var passLength = window.prompt("How many characters do you want in your in password? (8min-8max)");
+  var passLength = window.prompt("How many characters do you want in your in password? (8 min. - 128 max.)");
   passLength = parseInt(passLength);
   var pass = "";
 
